@@ -1,0 +1,279 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "heyy",
+        "heyyy",
+        "heyyyy",
+        "heyyyyyy",
+        "Heyyyyyyy",
+        "hiiiiiii",
+        "hello",
+        "heyyyyyo",
+        "hie",
+        "whats up",
+        "What's up?",
+        "what's up",
+        "whats up",
+        "what you doing?",
+        "what you doin",
+        "how you doin",
+        "how you doing?",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hey",
+        "Hello",
+        "I'm good",
+        "nothing much",
+        "talking to you",
+        "all is well",
+        "how are you?",
+        "Hi",
+        "Hey",
+        "heyy",
+        "heyyy",
+        "heyyyy",
+        "heyyyyyy",
+        "Heyyyyyyy",
+        "hiiiiiii",
+        "hello",
+        "what you doing?",
+        "what you doin",
+        "how you doin",
+        "how you doing?",
+        "How are you",
+        "i'm great",
+        "here for you",
+        "i am here for you",
+        "what can i do for you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+   {
+        "tag": "exit",
+        "patterns": [
+        "Bye", "Thank you for helping",
+        "See you",
+        "Goodbye",
+        "Thanks, bye"
+       ],
+    	"responses": [
+     	"Thank you! Glad to help you.",
+    	"Goodbye!",
+    	"Thanks for using my services!",
+    	"Take care of yourself",
+    	"Glad you feel better! Take care.",
+     	"Always here to help!"
+     ]
+ },
+
+    {
+      "tag": "feeling better",
+      "patterns": [
+        "I am feeling well",
+        "I am okay now",
+        "It's under control",
+        "I feel better",
+        "i am calm",
+        "i am smiling",
+        "you are a good friend",
+        "i feel good",
+        "this helped"
+      ],
+      "responses": [
+        "That is great",
+        "So good to hear!",
+        "i'm glad",
+        "i'm happy to know i could help you",
+        "happy to hear that",
+        "thats all i wanted",
+        "thats good",
+        "i am smiling too :)",
+        "you are a good friend too",
+        "Nothing to worry now",
+        "Meditation can help you"
+      ]
+    },
+    {
+      "tag": "thank you",
+      "patterns": [
+        "thank you",
+        "i can't tell you how thankful i am for you",
+        "I an grateful to have you around",
+        "you are so kind",
+        "so nice of you",
+        "talking to you feels great"
+      ],
+      "responses": [
+        "you are welcome",
+        "i'm humbled",
+        "i feel good talking to you too"
+      ]
+    },
+
+  {
+    	"tag": "not well",
+  	"patterns": [
+    	"I am not feeling well",
+    	"Feeling sick",
+    	"I don’t feel right.",
+    	"I feel unwell",
+    	"I am feeling uneasy",
+      "can you talk to me?",
+      "i feel alone",
+      "lonely",
+      "i feel lonely",
+      "i dont feel like living",
+      "i must not live anymore",
+      "i want to die",
+      "why does this happen to me?",
+      "am i so bad?",
+      "i cant live like this",
+      "i hate myself",
+      "everything is bad",
+      "life sucks",
+      "i hate everyone",
+      "life is sad",
+      "I am helpless, I have no control",
+      "I'm probably going to get sick.",
+      "i feel sick",
+      "Nothing good ever happens for me",
+      "no one loves me",
+      "friends hate me",
+      "parents hate me",
+      "mom hates me",
+      "mummy hates me",
+      "dad hates me",
+      "daddy hates me",
+      "no likes me",
+      "i am nothing",
+      "i'm afraid",
+      "i am afraid",
+      "i am not deserving",
+      "i am not good enough",
+      "i feel terrible",
+      "i am terrible",
+      "i am ruined",
+      "everything bad happens to me",
+      "why can't i be happy?",
+      "unhappy",
+      "sad",
+      "sorrow",
+      "depressed",
+      "my life is a mess",
+      "life is a mess",
+      "i am a loser",
+      "i feel lost",
+      "i cant figure out whats happening to me",
+      "whats happening to me?",
+      "there's something wrong with me",
+      "Everything happening in the world is terrible",
+      "giving up",
+      "killing myself",
+      "no one cares",
+      "today is a bad day",
+      "day didnt went well",
+      "today was depressing",
+      "i cant sleep",
+      "no sleep",
+      "sleepless"
+
+
+       ],
+    	"responses": [
+      "i can understand",
+      "It happens",
+      "sometimes things can get bad",
+     	"Can you please describe your symptoms?",
+    	"I am here with you.",
+      "Please tell me what you are going through.",
+    	"Please focus on breathing regularly. Can you elaborate your symptoms?",
+    	"Do not worry. Kindly tell me what you feel exactly?",
+    	"Sorry to hear that. Can you briefly describe your symptoms?",
+    	"Please describe your symptoms. If at any point you feel them worsening, please copy paste this number on your keypad and press dial: 8992"
+
+       ]
+    },
+    {
+
+      "tag": "symptoms1",
+  	  "patterns": [
+        "I can’t breathe easily and my chest hurts.",
+"I have chest and arm pain and I can’t breathe",
+"I feel faint and weak. My chest and back hurts",
+"I am feeling dizzy and have pain in my chest and back",
+"I have pain in my shoulder and I cannot breathe",
+"Difficult to breathe, chest and back pain",
+"chest pain",
+"back pain",
+"breathlessness"
+],
+
+"responses":[
+"Please try taking regular breaths, even if they aren’t deep. Please copy paste this number on your keypad and press dial: 8992",
+"Please copy and paste: 8992 to your keypad. And press the call button. Help is on its way",
+"I have alerted your emergency contacts. Please just focus on this text, and breathe in and out regularly. Breathe in, Breathe out.",
+"Your Doctor has been informed. You have people coming to help you, until then, please focus on breathing in and out."
+]
+},
+{
+"tag": "symptoms2",
+  	"patterns": [
+"I can’t breathe properly. I feel very anxious",
+"I am sweating, can’t take deep breaths. This is freaking me out",
+"My chest feels tight, and I can’t breathe. I feel very jittery",
+"I feel nauseous and my chest feels tight. It’s difficult to breathe",
+"My mouth feels dry, chest tightness and cannot breathe properly",
+"Keep drinking water but mouth is dry, can’t breathe properly, keep panicking",
+"I can’t think clearly, chest is heavy and can’t take deep breaths.",
+"Feel queasy and my head feels foggy. Can’t think",
+"I am trying to sleep, but unable to breathe properly, and am sweating"
+],
+
+"responses":[
+"Understood. Please do not worry. Based on your symptoms you have a panic attack. Just focus on breathing regularly, do not worry if these are not long, deep breaths. Eventually you will be able to take one",
+"Breathe in for 3 seconds, hold for 3 seconds, release for 3 seconds and repeat. I assure you your breathing will return to normal. Do not think of anything else.",
+"Please focus on your surroundings, and think of 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell and one thing you can taste. Focus on breathing regularly the whole time",
+"Please close your eyes and place one hand on your chest. Continue to breathe with pursed lips. Do not worry if these are not deep breaths.",
+"Based on your symptoms, this is nothing but a bout of panic. I encourage you to focus on regular breathing. You can engage yourself with your listed hobby: painting. Do not think about anything else.",
+"Close your eyes and focus on breathing regularly. Its alright if these aren’t long satisfying breaths. You are breathing regularly, so you are alright.",
+"Contrary to what you might think, your body doesn’t require you to take deep, long breaths each time. Instead, focus on breathing regularly. You will be alright. Just focus on breathing, and try engaging in your listed hobby."
+]
+},
+{
+"tag": "symptoms2",
+  	"patterns": [
+"I can’t breathe properly. I feel very anxious",
+"I am sweating, can’t take deep breaths. This is freaking me out",
+"My chest feels tight, and I can’t breathe. I feel very jittery",
+"I feel nauseous and my chest feels tight. It’s difficult to breathe",
+"My mouth feels dry, chest tightness and cannot breathe properly",
+"Keep drinking water but mouth is dry, can’t breathe properly, keep panicking",
+"I can’t think clearly, chest is heavy and can’t take deep breaths.",
+"Feel queasy and my head feels foggy. Can’t think",
+"I am trying to sleep, but unable to breathe properly, and am sweating"
+],
+
+"responses":[
+"Understood. Please do not worry. Based on your symptoms you have a panic attack. Just focus on breathing regularly, do not worry if these are not long, deep breaths. Eventually you will be able to take one",
+"Breathe in for 3 seconds, hold for 3 seconds, release for 3 seconds and repeat. I assure you your breathing will return to normal. Do not think of anything else.",
+"Please focus on your surroundings, and think of 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell and one thing you can taste. Focus on breathing regularly the whole time",
+"Please close your eyes and place one hand on your chest. Continue to breathe with pursed lips. Do not worry if these are not deep breaths.",
+"Based on your symptoms, this is nothing but a bout of panic. I encourage you to focus on regular breathing. You can engage yourself with your listed hobby: painting. Do not think about anything else.",
+"Close your eyes and focus on breathing regularly. Its alright if these aren’t long satisfying breaths. You are breathing regularly, so you are alright.",
+"Contrary to what you might think, your body doesn’t require you to take deep, long breaths each time. Instead, focus on breathing regularly. You will be alright. Just focus on breathing, and try engaging in your listed hobby."
+]
+}
+]
+}
